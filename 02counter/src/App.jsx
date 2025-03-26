@@ -11,10 +11,15 @@ function App() {
           className="bg-gray-400 text-orange-300 text-2xl p-3 m-4 rounded-xl"
           onClick={() => setCount(count + 1)}
         >
-          Click-me
+          Add-Value
         </button>
 
-        <button>Click-me</button>
+        <button
+          className="bg-gray-400 text-orange-300 text-2xl p-3 m-4 rounded-xl"
+          onClick={() => setCount(count - 1)}
+        >
+          Remove-Value
+        </button>
       </div>
     </>
   );
