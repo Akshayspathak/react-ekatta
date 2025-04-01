@@ -9,6 +9,9 @@ function App() {
     <>
       <h1 className="text-4xl m-4 text-center">New Project</h1>
       <h1 className="text-4xl text-center">Password Generator</h1>
+      <h1 className=" text-2x] text-sky-300 text-center">
+        create the Password Generators
+      </h1>
     </>
   );
 }
