@@ -24,6 +24,7 @@ const App = () => {
         placeholder="Type something"
       />
       <button onClick={handleButtonClick}>Submit</button>
+      <button> Click-me </button>
       <div>
         <h2> Data:</h2>
         <p>{submittedData}</p>
